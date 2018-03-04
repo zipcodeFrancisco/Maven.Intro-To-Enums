@@ -7,6 +7,7 @@ import org.junit.Test;
  * Created by leon on 3/4/18.
  */
 public class AliceBobEnumTest {
+    @Test
     public void testAliceName() {
         // Given
         AliceBobEnum alice = AliceBobEnum.ALICE;
@@ -35,6 +36,7 @@ public class AliceBobEnumTest {
 
 
 
+    @Test
     public void testAliceCatchPhrase() {
         // Given
         AliceBobEnum alice = AliceBobEnum.ALICE;

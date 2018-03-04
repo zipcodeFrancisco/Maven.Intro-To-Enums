@@ -1,2 +1,3 @@
 # Good Luck
-* Ensure all test cases pass
+* Each Test Class is COMPLETELY unrelated to the other.
+* Their theme may seem similar, but they are not interdependent!

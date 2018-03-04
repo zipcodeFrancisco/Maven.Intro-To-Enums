@@ -11,7 +11,7 @@ public class AliceBobEvaluatorTest {
     public void testLeon() {
         // Given
         String input = "Leon";
-        AliceBobChecker abc = new AliceBobChecker(input);
+        AliceBobEvaluator abc = new AliceBobEvaluator(input);
 
         // When
         boolean isAlice = abc.isAlice();
@@ -26,7 +26,7 @@ public class AliceBobEvaluatorTest {
     public void testWilhem() {
         // Given
         String input = "Tariq";
-        AliceBobChecker abc = new AliceBobChecker(input);
+        AliceBobEvaluator abc = new AliceBobEvaluator(input);
 
         // When
         boolean isAlice = abc.isAlice();
@@ -41,7 +41,7 @@ public class AliceBobEvaluatorTest {
     public void testBob() {
         // Given
         String input = "Bob";
-        AliceBobChecker abc = new AliceBobChecker(input);
+        AliceBobEvaluator abc = new AliceBobEvaluator(input);
 
         // When
         boolean isAlice = abc.isAlice();
@@ -57,7 +57,7 @@ public class AliceBobEvaluatorTest {
     public void testAlice() {
         // Given
         String input = "Alice";
-        AliceBobChecker abc = new AliceBobChecker(input);
+        AliceBobEvaluator abc = new AliceBobEvaluator(input);
 
         // When
         boolean isAlice = abc.isAlice();

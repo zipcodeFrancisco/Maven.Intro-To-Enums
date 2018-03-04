@@ -6,7 +6,7 @@ import org.junit.Test;
 /**
  * Created by leon on 3/3/18.
  */
-public class AliceBobCheckerTester {
+public class AliceBobEvaluatorTest {
     @Test
     public void testLeon() {
         // Given
